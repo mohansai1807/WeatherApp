@@ -99,29 +99,6 @@ npm run dev
 
 The application will be available at the local development URL shown in your terminal.
 
-## 🔑 API Configuration
-
-If your weather API requires an API key, create a `.env` file in the project root:
-
-```env
-VITE_WEATHER_API_KEY=your_api_key_here
-```
-
-Then access the environment variable in your React application using:
-
-```javascript
-import.meta.env.VITE_WEATHER_API_KEY
-```
-
-> Never commit your API key or `.env` file to GitHub.
-
-Add this to `.gitignore`:
-
-```text
-.env
-.env.local
-```
-
 ## 🧠 What I Learned
 
 Through this project, I gained practical experience with:
